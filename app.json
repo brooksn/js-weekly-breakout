@@ -9,16 +9,20 @@
   ],
   "env": {
     "S3_BUCKET": {
-      "description": "The AWS S3 bucket to which the feed.xml file will be uploaded."
+      "description": "The AWS S3 bucket to which the feed.xml file will be uploaded.",
+      "required": false
     },
     "AWS_ID": {
-      "description": "Your AWS access key ID."
+      "description": "Your AWS access key ID.",
+      "required": false
     },
     "AWS_KEY": {
-      "description": "Your AWS access key."
+      "description": "Your AWS access key.",
+      "required": false
     },
     "FEEDURL": {
-      "description": "The absolute URL to the feed.xml file."
+      "description": "The absolute URL to the feed.xml file.",
+      "value": "http://app-name.herokuapp.com"
     }
   }
 }

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A node.js script to scrape javascriptweekly.com and save a more granular RSS feed.",
   "author": "brooksn",
+  "scripts": {
+    "start": "node server.js"
+  }
   "bin": "./updateFeed.js",
   "license": "ISC",
   "dependencies": {
