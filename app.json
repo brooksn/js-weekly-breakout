@@ -4,6 +4,9 @@
   "repository": "https://github.com/brooks/js-weekly-breakout",
   "logo": "https://raw.githubusercontent.com/brooksn/js-weekly-breakout/master/breakout.png",
   "keywords": ["rss", "javascript"],
+  "addons": [
+    "scheduler"
+  ],
   "env": {
     "S3_BUCKET": {
       "description": "The AWS S3 bucket to which the feed.xml file will be uploaded."
