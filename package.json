@@ -1,0 +1,19 @@
+{
+  "name": "js-weekly-breakout",
+  "version": "1.0.0",
+  "description": "A node.js script to scrape javascriptweekly.com and save a more granular RSS feed.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-s3-promisified": "^2.0.0",
+    "cheerio": "^0.20.0",
+    "dotenv": "^2.0.0",
+    "node-fetch": "^1.5.1",
+    "rss": "^1.2.1"
+  }
+}

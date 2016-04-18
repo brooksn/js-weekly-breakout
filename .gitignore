@@ -1,0 +1,6 @@
+.env
+.DS_Store
+node_modules
+*.html
+*.xml
+jquery-2.2.3.min.js
