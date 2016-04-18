@@ -98,6 +98,7 @@ module.exports = function(){
           categories: [ tag ]
         });
       });
+      console.log(`main: ${articles.length}, briefs: ${inBrief.length}, jobs: ${jobs.length}`);
       var xml = feed.xml();
       if (useS3 === true) {
         //fs.writeFileSync('feed.xml', xml);
