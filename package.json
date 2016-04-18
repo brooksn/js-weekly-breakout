@@ -5,7 +5,7 @@
   "author": "brooksn",
   "scripts": {
     "start": "node server.js"
-  }
+  },
   "bin": "./updateFeed.js",
   "license": "ISC",
   "dependencies": {
