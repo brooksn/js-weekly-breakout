@@ -5,17 +5,17 @@
   "logo": "https://raw.githubusercontent.com/brooksn/js-weekly-breakout/master/breakout.png",
   "keywords": ["rss", "javascript"],
   "env": {
-   "S3_BUCKET": {
-     "description": "The AWS S3 bucket to which the feed.xml file will be uploaded."
-   },
-   "AWS_ID": {
-     "description": "Your AWS access key ID.",
-     "value": "5"
-   },
-   "AWS_KEY": {
-     "description": "Your AWS access key."
-   },
-   "FEEDURL": {
-     "description": "The absolute URL to the feed.xml file."
-   }
+    "S3_BUCKET": {
+      "description": "The AWS S3 bucket to which the feed.xml file will be uploaded."
+    },
+    "AWS_ID": {
+      "description": "Your AWS access key ID."
+    },
+    "AWS_KEY": {
+      "description": "Your AWS access key."
+    },
+    "FEEDURL": {
+      "description": "The absolute URL to the feed.xml file."
+    }
+  }
 }
