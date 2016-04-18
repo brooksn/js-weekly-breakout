@@ -2,6 +2,7 @@
   "name": "JS Weekly Breakout",
   "description": "A node.js script to scrape javascriptweekly.com and save a more granular RSS feed.",
   "repository": "https://github.com/brooks/js-weekly-breakout",
+  "logo": "https://raw.githubusercontent.com/brooksn/js-weekly-breakout/master/breakout.png",
   "keywords": ["rss", "javascript"],
   "env": {
    "S3_BUCKET": {
