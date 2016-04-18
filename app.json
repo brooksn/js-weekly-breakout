@@ -2,5 +2,19 @@
   "name": "JS Weekly Breakout",
   "description": "A node.js script to scrape javascriptweekly.com and save a more granular RSS feed.",
   "repository": "https://github.com/brooks/js-weekly-breakout",
-  "keywords": ["rss", "javascript"]
+  "keywords": ["rss", "javascript"],
+  "env": {
+   "S3_BUCKET": {
+     "description": "The AWS S3 bucket to which the feed.xml file will be uploaded."
+   },
+   "AWS_ID": {
+     "description": "Your AWS access key ID.",
+     "value": "5"
+   },
+   "AWS_KEY": {
+     "description": "Your AWS access key."
+   },
+   "FEEDURL": {
+     "description": "The absolute URL to the feed.xml file."
+   }
 }

@@ -5,10 +5,9 @@ var fetch = require('node-fetch')
 var RSS = require('rss');
 var cheerio = require('cheerio');
 
-const bucket = process.env.SMARTPODCASTER_S3_BUCKET;
-const awsid = process.env.SMARTPODCASTER_AWS_ID;
-const awskey = process.env.SMARTPODCASTER_AWS_KEY;
-const rootfileurl = process.env.ROOTS3FILEURL;
+const bucket = process.env.S3_BUCKET;
+const awsid = process.env.AWS_ID;
+const awskey = process.env.AWS_KEY;
 const feedurl = process.env.FEEDURL;
 if (!bucket || !awsid || !awskey || !feedurl) throw Error('Set SMARTPODCASTER_S3_BUCKET, SMARTPODCASTER_AWS_ID and SMARTPODCASTER_AWS_KEY.');
 
